@@ -15,7 +15,7 @@ h2{
 }
 /* Un bouton classique. */
 .btn {
-  width: 200px;
+  width: 100px;
   padding: 15px;
   border: none;
   background: #48D1CC;
@@ -23,13 +23,13 @@ h2{
 }
 
 /* Un bouton classique mais avec des angles ronds. */
-.btn-round {
+.btn-rounded {
   border-radius: 30px;
 }
 
 /* Un bouton classique mais plus large. */
 .btn-wide {
-  width: 400px;
+  width: 200px;
 }
 
 /* Un bouton classique mais avec une couleur de fond orange. */
