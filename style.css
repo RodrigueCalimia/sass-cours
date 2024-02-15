@@ -13,33 +13,26 @@ h2{
   text-align: center;
   color:white;
 }
-.turquoise {
-  padding: 15px;
-  border: none;
-  width: 100px;
-  background: #48D1CC;
-  color: #242424;
-}
-.turquoise-round {
-  padding: 15px;
-  border: none;
-  width: 100px;
-  background: #48D1CC;
-  color: #242424;
-  border-radius: 30px;
-}
-.wide {
-  padding: 15px;
-  border: none;
-  background: #48D1CC;
-  color: #242424;
+/* Un bouton classique. */
+.btn {
   width: 200px;
-}
-.orange-round {
   padding: 15px;
   border: none;
-  border-radius: 30px;
-  width: 100px;
-  background: #e67e22;
+  background: #48D1CC;
   color: #242424;
+}
+
+/* Un bouton classique mais avec des angles ronds. */
+.btn-round {
+  border-radius: 30px;
+}
+
+/* Un bouton classique mais plus large. */
+.btn-wide {
+  width: 400px;
+}
+
+/* Un bouton classique mais avec une couleur de fond orange. */
+.btn-orange {
+  background-color: #e67e22;
 }
